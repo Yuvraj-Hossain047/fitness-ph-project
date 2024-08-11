@@ -1,0 +1,21 @@
+@media (min-width: 993px) and (max-width: 1200px) { ... }
+@media (min-width: 577px) and (max-width: 992px) { ... }
+@media (min-width: 320px) and (max-width: 576px) {
+
+    .container{
+        width: 100%;
+    }
+    #hero {
+        padding-top: 52px;
+    }
+    #hero .navbar{
+        padding: 0 20px;
+    }
+    #hero .navbar .nav-items{
+        display: none;
+    }
+    #hero .burger{
+        display: block;
+        color: #FFFFFF;
+    }
+}

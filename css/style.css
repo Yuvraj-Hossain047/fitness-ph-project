@@ -1,0 +1,508 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 1060px;
+    margin: 0 auto;
+}
+body{
+    background: #000;
+}
+.ff_miama{
+    font-family: 'Miama', sans-serif;
+    font-size: 100px;
+}
+#hero .burger{ display: none;}
+/* =======================NAV start */
+#hero{
+    background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
+    padding-top: 57px;
+}
+#hero .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#hero .navbar .logo a{
+    font-size: 36px;
+    font-weight: 800;
+    line-height: 120%;
+    color: rgb(230, 83, 60);
+}
+#hero .navbar .nav-items{
+    padding: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 39px;
+}
+#hero .navbar .nav-items ul{
+    display: flex;
+    gap: 47px;
+}
+#hero .navbar .nav-items ul li .list_item{
+    padding: 8px 20px;
+    border-radius: 46px;
+    background: transparent;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    transition: .3s ease-in-out;
+}
+#hero .navbar .nav-items ul li a:hover{
+    background: rgb(230, 83, 60);
+}
+#hero .active{
+    background: rgb(230, 83, 60) !important;
+}
+#hero .banner{
+    padding-top: 32px;
+    display: flex;
+    justify-content: space-between;
+}
+#hero .banner .heading{
+    width: 50%;
+}
+#hero .banner .heading h1{
+    margin-top: 64px;
+    font-size: 78px;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+}
+#hero .banner .heading p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+#hero .banner .heading .banner_btns{
+    display: flex;
+    gap: 14px;
+}
+#hero .banner .hero_imgs{
+    position: relative;
+}
+.workout{
+    padding: 16px 23px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(255, 255, 255, 0.1);
+    position: absolute;
+    top: 22%;
+    left: 44%;
+    transform: translateX(44%);
+}
+.work_h3{
+    font-size: 40px;
+    font-weight: 900;
+    line-height: 40px;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+    padding-bottom: 8px;
+}
+.work_p{
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 1px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.video{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 20px 23px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: rgba(48, 48, 48, 0.54);
+    border-radius: 12px;
+    position: absolute;
+    top: 70%;
+    right: 70%;
+}
+.video .circle{
+    height: 40px;
+    width: 40px;
+    background: rgb(230, 83, 60);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.video .circle a{
+    color: rgb(250, 250, 249);
+    font-size: 28px;
+}
+/* =============will be global */
+/* .btn{
+    width: 224px;
+} */
+.btn a, .in_btn{
+    padding: 16px 40px;
+    font-size: 18px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
+}
+.btn a:hover, .in_btn:hover{
+    background:  transparent;
+    color: rgb(230, 83, 60);
+    border-color: rgb(230, 83, 60);
+}
+.btn-2 a{
+    padding: 16px 40px;
+    font-size: 18px;
+    border-radius: 42px;
+    background:  transparent;
+    font-weight: 600;
+    line-height: 22px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: .3s ease-in-out;
+}
+.btn-2 a:hover{
+    background: rgb(230, 83, 60);
+    color: #ffffff;
+}
+/* ============================habit part============================= */
+#habit_part{
+    padding: 100px 0;
+}
+/* ==============will be global */
+.tac{
+    text-align: center;
+}
+.sec_title h3{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+.sec_title p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+#habit_part .habits{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 58px;
+}
+#habit_part .habits .habit img{
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+#habit_part .habits .habit h5{
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 6px;
+}
+#habit_part .habits .habit p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* ============================RUN EXTRA============================= */
+#run_extra .run_ex_bg{
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 32px;
+}
+#run_extra .run_ex{
+    width: 40%;
+}
+#run_extra .run_ex h4{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+#run_extra .run_ex p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 34px;
+}
+#run_extra .run_ex_bg .run_img{
+    border-radius: 18px;
+    width: 366px;
+    height: 312px;
+    overflow: hidden;
+}
+#run_extra .run_ex_bg .run_img img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: 100% 50%;
+    transform: scale(1.5);
+}
+ /* =========================================TRAIN EXERCISE=================== */
+ #train_exercise{
+    padding-top: 100px;
+ }
+#train_exercise .trainings{
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    margin-top: 58px;
+}
+#train_exercise .trainings .train{
+    position: relative;
+    overflow: hidden;
+}
+#train_exercise .trainings .train .train_d{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    z-index: 3;
+    pointer-events: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#train_exercise .trainings .train .train_d p{
+    font-size: 20px;
+    font-weight: 800;
+    color: rgb(255, 255, 255);
+}
+#train_exercise .trainings .tint1{ background: rgba(6, 255, 210, 0.4); }
+#train_exercise .trainings .tint2{ background: rgba(255, 0, 0, 0.3); }
+#train_exercise .trainings .tint3{ background: rgba(0, 0, 0, 0.5); }
+#train_exercise .trainings .tint4{ background: rgba(0, 0, 0, 0.5); }
+#train_exercise .trainings .tint5{ background: rgba(66, 255, 0, 0.3); }
+#train_exercise .trainings .tint6{ background: rgba(0, 71, 255, 0.3); }
+
+#train_exercise .trainings .gs-4{ grid-column: span 4; }
+#train_exercise .trainings .gs-3{ grid-column: span 3; }
+.gs-2{ grid-column: span 2; }
+#train_exercise .trainings .train img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: .3s ease-in-out;
+    transform: scale(1);
+}
+#train_exercise .trainings .train:hover img{
+    transform: scale(1.1);
+}
+/* ===============================================BMI PART========================= */
+ #bmi_calc{
+    padding: 88px 0;
+ }
+ #bmi_calc .bmi_t_c{
+    width: 672px;
+    margin: 0 auto;
+ }
+ #bmi{
+    padding: 50px 0;
+    background: rgb(34, 34, 34);
+ }
+ #bmi .bmi_cc{
+    display: flex;
+ }
+ #bmi .bmi_cc .bmi_chart{
+    width: 50%;
+ }
+ #bmi .bmi_cc .bmi_chart h5{
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 52px;
+ }
+ table{
+    width: 310px;
+    border-collapse: collapse;
+ }
+ .thead{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+ }
+ td{
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 13px 0 13px 17px;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.5);
+ }
+ #bmi .bmi_cc .bmi_calculator{
+    width: 50%;
+ }
+ #bmi .bmi_cc .bmi_calculator h5{
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+ }
+ #bmi .bmi_cc .bmi_calculator p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 34px;
+ }
+ #bmi .bmi_cc .bmi_calculator form{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 12px;
+ }
+ #bmi .bmi_cc .bmi_calculator form .box_des{
+    padding: 12px 40px 12px 20px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.1);
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    outline: 0;
+    border: 0;
+ }
+ #bmi .bmi_cc .bmi_calculator form select option{
+    color: rgba(255, 255, 255, 0.6);
+    background: rgba(0, 0, 0, 0.5);
+ }
+input[type="submit"]{ margin-top: 24px; }
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button { -webkit-appearance: none; }
+input[type=number] { -moz-appearance: textfield; }
+
+ /* ================================================================TEAM PART============================================== */
+ #team{
+    padding: 88px 0;
+ }
+ #team .team_members{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    gap: 20px;
+    padding: 20px;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 58px;
+ }
+ #team .team_members .member{
+    position: relative;
+ }
+ #team .team_members .member .t_m_d{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+ }
+ #team .team_members .member .t_m_d h5{
+    font-size: 20px;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-left: 19px;
+ }
+ #team .team_members .member .t_m_d p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.5);
+    margin: 3px 0 16px 19px;
+ }
+ #team .team_members .member img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 18px;
+ }
+ /* ================================FOOTER PART================= */
+ #footer{
+    padding: 66px 0 35px;
+    background: rgba(255, 255, 255, 0.1);
+ }
+ #footer .f_c{
+    display: flex;
+ }
+ #footer .f_c .f_logo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+ }
+ #footer .f_c .f_logo a{
+    font-size: 70px;
+    font-weight: 800;
+    line-height: 120%;
+    color: rgb(230, 83, 60);
+    margin-bottom: 20px;
+ }
+ #footer .f_c .f_logo p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+    width: 80%;
+ }
+ #footer .f_c .get_start{
+    width: 25%;
+ }
+ #footer .f_c .get_start h5{
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 39px;
+ }
+ #footer .f_c .get_start ul li a{
+    font-size: 23px;
+    font-weight: 400;
+    line-height: 120%;
+    color: rgba(255, 255, 255, 0.5);
+    margin-bottom: 20px;
+    transition: .3s ease;
+ }
+ #footer .f_c .get_start ul li a:hover{
+    color: #ffffff;
+    transform: scale(1.1);
+ }
+ #footer .f_c .get_start ul li .last{
+    margin-bottom: 80px;
+ }
+ #footer .foot_p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 35px;
+ }
