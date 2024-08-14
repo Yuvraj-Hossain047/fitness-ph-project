@@ -27,8 +27,61 @@ body{
     font-family: 'Miama', sans-serif;
     font-size: 100px;
 }
+.tac{
+    text-align: center;
+}
+/* ======================COMMON Grids====================================== */
+.gs-4{ grid-column: span 4; }
+.gs-3{ grid-column: span 3; }
+.gs-2{ grid-column: span 2; }
+/* ==========================Button Commons==================================== */
+.btn a, .in_btn{
+    padding: 16px 40px;
+    font-size: 18px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    font-weight: 600;
+    line-height: 22px;
+    color: rgb(255, 255, 255);
+    border: 1px solid transparent;
+    transition: .3s ease-in-out;
+}
+.btn a:hover, .in_btn:hover{
+    background:  transparent;
+    color: rgb(230, 83, 60);
+    border-color: rgb(230, 83, 60);
+}
+.btn-2 a{
+    padding: 16px 40px;
+    font-size: 18px;
+    border-radius: 42px;
+    background:  transparent;
+    font-weight: 600;
+    line-height: 22px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    transition: .3s ease-in-out;
+}
+.btn-2 a:hover{
+    background: rgb(230, 83, 60);
+    color: #ffffff;
+}
+/* ===========================================Section Title Commons========================== */
+.sec_title h3{
+    font-size: 48px;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 14px;
+}
+.sec_title p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgba(255, 255, 255, 0.5);
+}
+/* =====================================================HERO PART +NAV start========================================================= */
 #hero .burger{ display: none;}
-/* =======================NAV start */
 #hero{
     background: linear-gradient(180.00deg, rgb(17, 17, 17),rgba(119, 119, 119, 0) 100%);
     padding-top: 57px;
@@ -150,61 +203,9 @@ body{
     color: rgb(250, 250, 249);
     font-size: 28px;
 }
-/* =============will be global */
-/* .btn{
-    width: 224px;
-} */
-.btn a, .in_btn{
-    padding: 16px 40px;
-    font-size: 18px;
-    border-radius: 42px;
-    background: rgb(230, 83, 60);
-    font-weight: 600;
-    line-height: 22px;
-    color: rgb(255, 255, 255);
-    border: 1px solid transparent;
-    transition: .3s ease-in-out;
-}
-.btn a:hover, .in_btn:hover{
-    background:  transparent;
-    color: rgb(230, 83, 60);
-    border-color: rgb(230, 83, 60);
-}
-.btn-2 a{
-    padding: 16px 40px;
-    font-size: 18px;
-    border-radius: 42px;
-    background:  transparent;
-    font-weight: 600;
-    line-height: 22px;
-    color: #ffffff;
-    border: 1px solid #ffffff;
-    transition: .3s ease-in-out;
-}
-.btn-2 a:hover{
-    background: rgb(230, 83, 60);
-    color: #ffffff;
-}
 /* ============================habit part============================= */
 #habit_part{
     padding: 100px 0;
-}
-/* ==============will be global */
-.tac{
-    text-align: center;
-}
-.sec_title h3{
-    font-size: 48px;
-    font-weight: 900;
-    line-height: 120%;
-    color: rgb(255, 255, 255);
-    margin-bottom: 14px;
-}
-.sec_title p{
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 24px;
-    color: rgba(255, 255, 255, 0.5);
 }
 #habit_part .habits{
     display: flex;
@@ -303,9 +304,6 @@ body{
 #train_exercise .trainings .tint5{ background: rgba(66, 255, 0, 0.3); }
 #train_exercise .trainings .tint6{ background: rgba(0, 71, 255, 0.3); }
 
-.gs-4{ grid-column: span 4; }
-.gs-3{ grid-column: span 3; }
-.gs-2{ grid-column: span 2; }
 #train_exercise .trainings .train img{
     width: 100%;
     height: 100%;
@@ -316,7 +314,7 @@ body{
 #train_exercise .trainings .train:hover img{
     transform: scale(1.1);
 }
-/* ===============================================BMI PART========================= */
+/* ===============================================BMI_calc PART========================= */
  #bmi_calc{
     padding: 88px 0;
  }
@@ -324,6 +322,7 @@ body{
     width: 672px;
     margin: 0 auto;
  }
+ /* ===============================================BMI PART========================= */
  #bmi{
     padding: 50px 0;
     background: rgb(34, 34, 34);
@@ -446,7 +445,7 @@ input[type=number] { -moz-appearance: textfield; }
     object-fit: cover;
     border-radius: 18px;
  }
- /* ================================FOOTER PART================= */
+ /* ================================FOOTER PART=============================================== */
  #footer{
     padding: 66px 0 35px;
     background: rgba(255, 255, 255, 0.1);

@@ -10,6 +10,19 @@
     .xs_gs-4{
         grid-column: span 4;
     }
+    .ff_miama {
+        font-size: 69px;
+    }
+    /* ===Common for all heading=== */
+    .sec_title h3 {
+        font-size: 32px;
+    }
+    /* ============Common for buttons=========== */
+    .btn a, .in_btn {
+        width: 100%;
+        text-align: center;
+    }
+    /* ===============HERO PART================= */
     #hero {
         padding: 52px 20px 0;
     }
@@ -23,9 +36,6 @@
     #hero .banner {
         flex-direction: column;
         padding-top: 0;
-    }
-    .ff_miama {
-        font-size: 69px;
     }
     #hero .banner .heading {
         width: 100%;
@@ -55,9 +65,7 @@
         top: 45%;
         right: 50%;
     }
-    .sec_title h3 {
-        font-size: 32px;
-    }
+    /* ===============HABIT PART============== */
     #habit_part {
         padding: 0 27px;
     }
@@ -67,6 +75,7 @@
     #habit_part .habits .habit{
         margin-bottom: 36px;
     }
+    /* ===============RUN_Extra PART============ */
     #run_extra{
         padding: 0 20px;
     }
@@ -79,24 +88,23 @@
     #run_extra .run_ex {
         width: 90%;
     }
-    .btn a, .in_btn {
-        width: 100%;
-        text-align: center;
-    }
     #run_extra .run_ex_bg .run_img {
         width: 100%;
         height: 100%;
         margin-top: 31px;
     }
+    /* ==========TRAIN_Exercise PART================= */
     #train_exercise {
         padding: 66px 20px 0;
     }
+    /* ==========BMI_CALC part======================= */
     #bmi_calc {
         padding: 22px 20px 32px;
     }
     #bmi_calc .bmi_t_c {
         width: 98%;
     }
+    /* ============BMI PART======================= */
     #bmi {
         padding: 34px 20px 43px;
     }
@@ -120,12 +128,14 @@
     #bmi .bmi_cc .bmi_calculator form {
         grid-template-columns: repeat(2, minmax(150px, 1fr));
     }
+    /* ===============TEAM part====================== */
     #team {
         padding: 66px 20px;
     }
     #team .team_members {
         grid-template-columns: 1fr;
     }
+    /* ==============FOOTER Part==================== */
     #footer {
         padding: 44px 20px 57px;
     }
