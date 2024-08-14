@@ -116,7 +116,7 @@ body{
     line-height: 40px;
     letter-spacing: 1px;
     color: rgb(255, 255, 255);
-    padding-bottom: 8px;
+    margin-bottom: 8px;
 }
 .work_p{
     font-size: 13px;
@@ -303,8 +303,8 @@ body{
 #train_exercise .trainings .tint5{ background: rgba(66, 255, 0, 0.3); }
 #train_exercise .trainings .tint6{ background: rgba(0, 71, 255, 0.3); }
 
-#train_exercise .trainings .gs-4{ grid-column: span 4; }
-#train_exercise .trainings .gs-3{ grid-column: span 3; }
+.gs-4{ grid-column: span 4; }
+.gs-3{ grid-column: span 3; }
 .gs-2{ grid-column: span 2; }
 #train_exercise .trainings .train img{
     width: 100%;
