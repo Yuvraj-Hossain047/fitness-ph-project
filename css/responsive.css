@@ -97,6 +97,17 @@
     #train_exercise {
         padding: 66px 20px 0;
     }
+    /* ===================equip PART================ */
+        #equip{
+            padding: 80px 30px;
+        }
+        #equip .items {
+            flex-direction: column;
+            gap: 20px;
+        }
+        #equip .items .item {
+            width: 100%;
+        }
     /* ==========BMI_CALC part======================= */
     #bmi_calc {
         padding: 22px 20px 32px;

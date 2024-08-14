@@ -314,6 +314,31 @@ body{
 #train_exercise .trainings .train:hover img{
     transform: scale(1.1);
 }
+/* ===============================================equip PART========================= */
+#equip{
+    padding: 100px 0;
+}
+#equip .items{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 80px;
+}
+#equip .items .item{
+    width: 25%;
+    background: rgb(34, 34, 34);
+    border-radius: 8px;
+}
+#equip .items .item p{
+    font-size: 28px;
+    font-weight: 900;
+    line-height: 120%;
+    color: rgb(255, 255, 255);
+    margin-bottom: 52px;
+}
+#equip .items .item img{
+    width: 100%;
+    height: 70%;
+}
 /* ===============================================BMI_calc PART========================= */
  #bmi_calc{
     padding: 88px 0;
