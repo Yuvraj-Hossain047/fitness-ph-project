@@ -197,12 +197,12 @@
     .sec_title h3 {
         font-size: 32px;
     }
-    /* ============Common for buttons=========== */
+    /* ===Common for buttons=== */
     .btn a, .in_btn {
         width: 100%;
         text-align: center;
     }
-    /* ===============HERO PART================= */
+    /* ==HERO PART== */
     #hero {
         padding: 52px 30px 0;
     }
@@ -248,7 +248,7 @@
         top: 45%;
         right: 50%;
     }
-    /* ===============HABIT PART============== */
+    /* ==HABIT PART== */
     #habit_part {
         padding: 100px 30px;
     }
@@ -259,7 +259,7 @@
         margin-bottom: 36px;
         width: 49%;
     }
-    /* ===============RUN_Extra PART============ */
+    /* ==RUN_Extra PART== */
     #run_extra{
         padding: 0 30px;
     }
@@ -275,11 +275,11 @@
     #run_extra .run_ex_bg .run_img {
         width: 100%;
     }
-    /* ==========TRAIN_Exercise PART================= */
+    /* ==TRAIN_Exercise PART== */
     #train_exercise {
         padding: 66px 30px 0;
     }
-    /* ===================equip PART================ */
+    /* ==equip PART== */
     #equip{
          padding: 80px 30px;
     }
@@ -293,14 +293,14 @@
     #equip .items .item {
         width: 100%;
     }
-    /* ==========BMI_CALC part======================= */
+    /* ==BMI_CALC part== */
     #bmi_calc {
         padding: 22px 30px 32px;
     }
     #bmi_calc .bmi_t_c {
         width: 98%;
     }
-    /* ============BMI PART======================= */
+    /* ==BMI PART== */
     #bmi {
         padding: 34px 30px 43px;
     }
@@ -321,11 +321,11 @@
     #bmi .bmi_cc .bmi_calculator form {
         grid-template-columns: repeat(2, minmax(150px, 1fr));
     }
-    /* ===============TEAM part====================== */
+    /* ==TEAM part== */
     #team {
         padding: 77px 30px;
     }
-    /* ==============FOOTER Part==================== */
+    /* ==FOOTER Part== */
     #footer {
         padding: 44px 30px 57px;
     }
