@@ -1,3 +1,8 @@
+@media (min-width: 320px) and (max-width: 387px){
+    #hero .banner .heading .banner_btns {
+        flex-wrap: wrap;
+    }
+}
 /* ===================X-Small device============================= */
 @media (min-width: 320px) and (max-width: 576px) {
 
@@ -47,6 +52,9 @@
     }
     #hero .banner .hero_imgs {
         margin: 0 auto;
+    }
+    #hero .banner .heading .banner_btns {
+        justify-content: center;
     }
     .work_h3 {
         font-size: 30px;
